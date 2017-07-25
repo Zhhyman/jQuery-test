@@ -9,4 +9,5 @@ $(document).ready(function() {
     $('.pull-me').click(function() {
         $('.panel').slideToggle('slow');
     });
+    $h1 = $("<h1>Hello</h1>");
 });
