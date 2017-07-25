@@ -1,12 +1,8 @@
 $(document).ready(function() {
-    $('button').click(function() {
-        $('.vanish').fadeOut('slow');
-    });
-    $('button').click(function() {
-        $('.pink, .red').fadeTo('slow', 0);
-    });
+    $('body').append("<p>I'm a paragraph!</p>");
+    $('#one').after('<p>I am a p tag!</p>');    // <p></p> goes after div id one.
+    if (1+1 == 2) {
+      $('#two').after('<p>cool</p>')
+    };
 
-    $('.pull-me').click(function() {
-        $('.panel').slideToggle('slow');
-    });
 });
