@@ -15,12 +15,12 @@ body{
 
 .calculator{
   @include border(5px,solid,2px);
-  width: $width / 1.4;
-  height: $height;
+  width: $width / 1.440;
+  height: $height - 130px;
   position:absolute;
 }
 
-#one, #two, #three, #four, #five, #six, #seven, #eight{
+.button{
   @include border(1px,solid,2px);
   float:left;
   background-color: orange;

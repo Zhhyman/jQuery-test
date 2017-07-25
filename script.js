@@ -31,4 +31,20 @@ $(document).ready(function() {
     var add = $('#eight').contents() .wrap("<b/>");
     $('span').before(add);
   })
+  $('#nine').click(function(){
+    var add = $('#nine').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#zero').click(function(){
+    var add = $('#zero').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#star').click(function(){
+    var add = $('#star').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#pound').click(function(){
+    var add = $('#pound').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
 });
