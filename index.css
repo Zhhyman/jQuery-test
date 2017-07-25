@@ -1,0 +1,37 @@
+body {
+  margin: 100px; }
+
+.calculator, .screen {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  width: 357.1428571429px;
+  height: 600px;
+  position: absolute; }
+
+#one, #two, #three, #four, #five, #six, #seven, #eight {
+  border-radius: 1px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  float: left;
+  background-color: orange;
+  position: relative;
+  text-align: center;
+  vertical-align: center;
+  display: inline-block;
+  width: 111.1111111111px;
+  height: 90px;
+  font-size: 50px;
+  padding-top: 24px; }
+  #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover {
+    cursor: pointer;
+    opacity: .5; }
+
+.screen {
+  margin-left: 500px;
+  height: 200;
+  width: 500px; }
+
+/*# sourceMappingURL=index.css.map */

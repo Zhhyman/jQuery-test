@@ -1,11 +1,34 @@
 $(document).ready(function() {
-    $('body').append("<p>I'm a paragraph!</p>");
-    $('#one').after('<p>I am a p tag!</p>');    // <p></p> goes after div id one.
-<<<<<<< HEAD
-    if (1+1 == 2) {
-      $('#two').after('<p>cool</p>')
-    };
-
-=======
->>>>>>> ad02320b86b26d7eec237d553afe2c3317f6601f
+  $('#one').click(function(){
+    var add = $('#one').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#two').click(function(){
+    var add = $('#two').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#three').click(function(){
+    var add = $('#three').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#four').click(function(){
+    var add = $('#four').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#five').click(function(){
+    var add = $('#five').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#six').click(function(){
+    var add = $('#six').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#seven').click(function(){
+    var add = $('#seven').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
+  $('#eight').click(function(){
+    var add = $('#eight').contents() .wrap("<b/>");
+    $('span').before(add);
+  })
 });

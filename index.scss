@@ -1,0 +1,46 @@
+@mixin border($radius, $style, $width: 2px, $color: grey) {
+  border: {
+    radius: $radius;
+    style: $style;
+    width: $width;
+    color: $color;
+  }
+}
+$width: 500px;
+$height: 600px;
+
+body{
+  margin:100px;
+}
+
+.calculator{
+  @include border(5px,solid,2px);
+  width: $width / 1.4;
+  height: $height;
+  position:absolute;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight{
+  @include border(1px,solid,2px);
+  float:left;
+  background-color: orange;
+  position:relative;
+  text-align: center;
+  vertical-align: center;
+  display:inline-block;
+  width:$width / 1.5 / 3;
+  height: $height/5 - 30 ;
+  font-size: 50px;
+  padding-top: 24px;
+  &:hover{
+    cursor:pointer;
+    opacity:.5;
+  }
+}
+
+.screen{
+  @extend .calculator;
+  margin-left: 500px;
+  height:$height / 3px;
+  width: $width;
+}
